@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 body{
-    background-color: black;
+    background-image: url(/src/img/bg_bggenerator_com.jpg);
 }
 
