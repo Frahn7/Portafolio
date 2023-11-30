@@ -1,7 +1,6 @@
 import "~/styles/globals.css";
 
 import { TfiNewWindow } from "react-icons/tfi";
-import { FaGithub } from "react-icons/fa6";
 
 export const Experience = () => {
   return (

@@ -6,7 +6,7 @@ export const Projects = () => {
     <div id="proj" className="mt-20">
       <div>
         <h1 className=" sans-serif flex justify-center pb-4 text-4xl font-semibold text-[#ffe4c4] ">
-          Proyectos:
+          Proyectos
         </h1>
       </div>
       <div className=" flex flex-wrap justify-center gap-4 pb-10 ">
