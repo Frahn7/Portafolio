@@ -18,7 +18,7 @@ export const Card = ({ title, description, tec }: CardProps) => {
       <p className="tracking-sm mt-4 flex w-[300px] flex-row text-sm text-white">
         {description}
       </p>
-      <div className="badge-container mt-4 flex w-full justify-end gap-2">
+      <div className="badge-container mt-auto flex w-full justify-end gap-2">
         <div className="w-fit rounded-md bg-blue-600 p-[6px] text-sm font-medium text-black">
           {tec}
         </div>

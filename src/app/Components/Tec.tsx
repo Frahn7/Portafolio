@@ -16,7 +16,7 @@ export const Tec = () => {
     <div className="pb-20" id="tec">
       <div>
         <h1 className="sans-serif mt-20 flex justify-center px-20 pb-4 text-4xl font-semibold text-[#ffe4c4] ">
-          Tecnologías destacadas ⚙
+          Tecnologías destacadas <span className="spin-animation">⚙</span>
         </h1>
       </div>
       <div className="mt-4 flex flex-wrap justify-center gap-2 px-[25px] text-center align-middle">
