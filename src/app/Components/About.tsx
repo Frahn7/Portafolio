@@ -6,17 +6,17 @@ export const About = () => {
   return (
     <div className="flex justify-center px-3 pt-14" id="sobremi">
       <div>
-        <h1 className="font-serif text-5xl font-semibold text-[#ffe4c4] underline">
-          Sobre mi:
+        <h1 className="sans-serif text-5xl font-semibold text-[#ffe4c4] ">
+          Sobre mi
         </h1>
         <p className="pt-4 font-serif text-2xl text-white">
           Hola 👋 <br /> Soy Francisco Villella! Soy un desarrollador Frontend &
-          Bakend.
+          Backend.
         </p>
         <p className="font-serif text-2xl text-white md:w-[800px]">
           Mi enfoque principal es JavaScript, donde he desarrollado habilidades
           excepcionales en desarrollo de aplicaciones web, diseño de bases de
-          datos, desarrollo móvil, etc... Mi amor por resolver problemas y
+          datos, desarrollo móvil, etc. Mi amor por resolver problemas y
           enfrentarme a desafíos técnicos me impulsa a buscar constantemente
           nuevas formas de mejorar mis habilidades.
         </p>

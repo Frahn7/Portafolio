@@ -1,5 +1,7 @@
 import "~/styles/globals.css";
 
+import { FaGithub } from "react-icons/fa6";
+
 interface CardProps {
   title: string;
   description: string;
@@ -10,7 +12,10 @@ export const Card = ({ title, description, tec }: CardProps) => {
   return (
     <div className="border-dark_grey hover:bg-hover flex min-h-[190px] flex-col rounded-lg border bg-black p-4 transition">
       <span className="flex items-center gap-2">
-        <h3 className="text-lg font-medium text-white">{title}:</h3>
+        <h3 className="flex flex-row text-lg font-medium text-white">
+          <FaGithub className="mr-2 mt-1" />
+          {title}:
+        </h3>
       </span>
       <p className="tracking-sm mt-4 flex w-[300px] flex-row text-sm text-white">
         {description}

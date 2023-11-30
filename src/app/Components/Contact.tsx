@@ -12,7 +12,7 @@ const Contact = () => {
   return (
     <div className="mt-20 pb-6" id="contact">
       <div className="mt-20 flex justify-center">
-        <h1 className=" flex justify-center pb-4 font-serif text-4xl font-semibold text-[#ffe4c4] underline">
+        <h1 className=" sans-serif flex justify-center pb-4 text-4xl font-semibold text-[#ffe4c4] ">
           Contacto:
         </h1>
       </div>

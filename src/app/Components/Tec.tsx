@@ -4,7 +4,7 @@ export const Tec = () => {
   return (
     <div className="pb-20" id="tec">
       <div>
-        <h1 className="mt-20 flex justify-center px-20 pb-4 font-serif text-4xl font-semibold text-[#ffe4c4] underline">
+        <h1 className="sans-serif mt-20 flex justify-center px-20 pb-4 text-4xl font-semibold text-[#ffe4c4] ">
           Tecnologías destacadas ⚙
         </h1>
       </div>

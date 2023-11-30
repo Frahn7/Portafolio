@@ -10,7 +10,7 @@ const Navbar = () => {
           <div className="pt-3 font-serif text-[30px] text-[#ffe4c4]">
             {name}
           </div>
-          <ul className=" md:flex md:flex-row md:justify-center md:gap-5 md:py-5">
+          <ul className="md:flex md:flex-row md:justify-center md:gap-5 md:py-5">
             <a href="#sobremi">
               <li>Sobre Mí</li>
             </a>
@@ -29,7 +29,7 @@ const Navbar = () => {
             <li className="-mt-[15px]">
               <Image
                 src="/img/FranCara.png"
-                className=" hover:w-[95px]"
+                className=""
                 alt="."
                 width={80}
                 height={0}

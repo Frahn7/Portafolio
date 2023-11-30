@@ -5,53 +5,40 @@ export const Projects = () => {
   return (
     <div id="proj" className="mt-20">
       <div>
-        <h1 className=" flex justify-center pb-4 font-serif text-4xl font-semibold text-[#ffe4c4] underline">
+        <h1 className=" sans-serif flex justify-center pb-4 text-4xl font-semibold text-[#ffe4c4] ">
           Proyectos:
         </h1>
       </div>
       <div className=" flex flex-wrap justify-center gap-4 pb-10 ">
         <a
-          href="https://github.com/Frahn7/Lista-de-Tareas-Con-React"
+          href="https://lista-de-tareas-react-five.vercel.app/"
           target="_blank"
         >
           <Card
             title="Lista de tareas"
-            description="Lista de tareas con react y tailwind almacenando en el LocalStorage los datos"
+            description="Lista de tareas creada con React y Tailwind, con almacenamiento de datos en el LocalStorage."
             tec=" React & Tailwind "
           />
         </a>
-        <a
-          href="https://github.com/Frahn7/Rick-y-Morty-Fetch-API"
-          target="_blank"
-        >
+        <a href="https://rick-y-morty-fetch-api.vercel.app/" target="_blank">
           <Card
             title="Fetch Api"
-            description="Fetch a la api re rick y morty con paginacion incluida"
-            tec=" React & Tailwind "
+            description="Haciendo una solicitud a la API de Rick y Morty utilizando fetch, con paginación implementada."
+            tec=" React & Bootstrap "
           />
         </a>
-        <a href="https://github.com/Frahn7/Tic-Tac-Toe" target="_blank">
+        <a href="https://tic-tac-toe-theta-fawn-92.vercel.app/" target="_blank">
           <Card
             title="Tic-Tac-Toe"
-            description="El famoso juego de 3 en raya "
+            description="Desarrollé el famoso juego de 3 en raya"
             tec=" React & Tailwind "
           />
         </a>
-        <a href="https://github.com/Frahn7/App-clima" target="_blank">
+        <a href="https://app-clima-lake.vercel.app/" target="_blank">
           <Card
             title="App del clima"
-            description="Una simple app del clima que consume la api de OpenWeather"
+            description="Creé una aplicación sencilla de pronóstico del clima que se conecta y consume la API de OpenWeather"
             tec=" React & Tailwind "
-          />
-        </a>
-        <a
-          href="https://github.com/Frahn7/Primer-Jueguito-con-js"
-          target="_blank"
-        >
-          <Card
-            title="Mokekom"
-            description="Un juego inspirado en pokemon"
-            tec=" JavaScript & CSS "
           />
         </a>
       </div>
