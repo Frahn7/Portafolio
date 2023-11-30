@@ -1,5 +1,4 @@
-import "~/styles/globals.css";
-import { Card } from "./card";
+import { Card } from "./Card";
 
 export const Projects = () => {
   return (

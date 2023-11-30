@@ -1,10 +1,4 @@
-import {
-  FaInstagram,
-  FaTwitter,
-  FaGithub,
-  FaLinkedin,
-  FaWhatsapp,
-} from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 import { IoMail } from "react-icons/io5";
 

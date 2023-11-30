@@ -1,4 +1,3 @@
-import "~/styles/globals.css";
 import Image from "next/image";
 
 const Navbar = () => {
@@ -26,6 +25,7 @@ const Navbar = () => {
             <a href="#contact">
               <li>Contactame</li>
             </a>
+            {/* <li>Descargar CV</li> */}
             <li className="-mt-[15px]">
               <Image
                 src="/img/FranCara.png"

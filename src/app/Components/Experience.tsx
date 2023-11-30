@@ -1,5 +1,3 @@
-import "~/styles/globals.css";
-
 import { TfiNewWindow } from "react-icons/tfi";
 
 export const Experience = () => {
