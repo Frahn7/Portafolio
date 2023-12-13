@@ -22,13 +22,13 @@ export const About = () => {
         </p>
         <div className="flex flex-row gap-4 pt-5 text-5xl text-white">
           <a href="https://github.com/Frahn7" target="_blank ">
-            <FaGithub />
+            <FaGithub className="hover:text-yellow-400" />
           </a>
           <a
             href="https://www.linkedin.com/in/francisco-villella-330b30238/"
             target="_blank"
           >
-            <FaLinkedin />
+            <FaLinkedin className="hover:text-blue-400" />
           </a>
         </div>
       </div>
