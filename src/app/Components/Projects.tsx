@@ -61,6 +61,16 @@ export const Projects = () => {
             tec=" React & Tailwind "
           />
         </a>
+        <a
+          href="https://torneo-p29hf05b1-frahn7s-projects.vercel.app/"
+          target="_blank"
+        >
+          <Card
+            title="Creador de torneo"
+            description="Un creador de torneos basico que cree para probar cosas"
+            tec=" React & TypeScript "
+          />
+        </a>
       </div>
     </div>
   );
