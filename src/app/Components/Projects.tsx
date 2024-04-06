@@ -26,6 +26,13 @@ export const Projects = () => {
             tec=" React & Tailwind "
           />
         </a>
+        <a href="https://takenos-clon.vercel.app/" target="_blank">
+          <Card
+            title="Clon de Takenos"
+            description="Hice un clon de la pagina de Takenos"
+            tec=" React & Tailwind & TypeScript "
+          />
+        </a>
         <a href="https://www.tododescuentos.com.ar/" target="_blank">
           <Card
             title="Todo descuentos"
