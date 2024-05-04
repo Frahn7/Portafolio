@@ -12,6 +12,7 @@ import { FaAws } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { BsFillBootstrapFill } from "react-icons/bs";
+import { SiTypescript } from "react-icons/si";
 
 interface TecProps {
   className: string;
@@ -54,6 +55,10 @@ export const Tec = () => {
         <TecnologiasCard
           icon={<TbBrandNextjs />}
           className="text-white hover:text-gray-300"
+        />
+        <TecnologiasCard
+          icon={<SiTypescript />}
+          className="text-blue-700 hover:text-blue-500"
         />
         <TecnologiasCard
           icon={<FaNodeJs />}

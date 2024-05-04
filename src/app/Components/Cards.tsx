@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa6";
 interface CardProps {
   title: string;
   description: string;
-  tec: string;
+  tec: React.ReactNode;
 }
 
 export const Card = ({ title, description, tec }: CardProps) => {
@@ -19,7 +19,7 @@ export const Card = ({ title, description, tec }: CardProps) => {
         {description}
       </p>
       <div className="badge-container mt-auto flex w-full justify-end gap-2">
-        <div className="w-fit rounded-md bg-blue-600 p-[6px] text-sm font-medium text-black">
+        <div className="w-fit rounded-md bg-blue-600 p-[6px] font-medium text-black">
           {tec}
         </div>
       </div>
