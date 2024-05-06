@@ -43,7 +43,7 @@ const Navbar = () => {
                 height={0}
               />
             </li>
-            <div className="-mt-2 flex flex-row gap-2">
+            <div className="mt-[10px] flex flex-row gap-2 md:-mt-2">
               <li
                 className={
                   Idioma === "ES"
