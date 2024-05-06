@@ -4,6 +4,7 @@ import Image from "next/image";
 import React from "react";
 import { useIdioma } from "~/Contexts/Idioma";
 import { IoLanguage } from "react-icons/io5";
+import { TiArrowSortedUp } from "react-icons/ti";
 
 const Navbar = () => {
   const { Idioma, setIdioma } = useIdioma();
@@ -71,6 +72,17 @@ const Navbar = () => {
           </ul>
         </div>
       </nav>
+      <div
+        className=" fixed  flex w-full  justify-end p-2 "
+        onClick={() => {
+          window.scroll({
+            top: 0,
+            behavior: "smooth",
+          });
+        }}
+      >
+        <TiArrowSortedUp className="animate-infinite flex animate-bounce justify-end rounded-full bg-white text-[50px]" />
+      </div>
     </div>
   );
 };
