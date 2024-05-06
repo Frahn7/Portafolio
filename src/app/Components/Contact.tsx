@@ -1,13 +1,17 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+"use client";
 
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
+import { useIdioma } from "~/Contexts/Idioma";
 
 const Contact = () => {
+  const { Idioma } = useIdioma();
+
   return (
     <div className="mt-20 pb-6" id="contact">
       <div className="mt-20 flex justify-center">
         <h1 className=" sans-serif flex justify-center pb-4 text-4xl font-semibold text-[#ffe4c4] ">
-          Contacto
+          {Idioma === "ES" ? "Contacto" : "Contact me"}
         </h1>
       </div>
 

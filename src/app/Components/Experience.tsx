@@ -1,10 +1,15 @@
+"use client";
+
 import { TfiNewWindow } from "react-icons/tfi";
+import { useIdioma } from "~/Contexts/Idioma";
 
 export const Experience = () => {
+  const { Idioma } = useIdioma();
+
   return (
     <div id="experiencia">
       <h1 className="sans-serif mt-20 flex justify-center pb-4 text-4xl font-semibold text-[#ffe4c4] ">
-        Experiencia laboral
+        {Idioma === "ES" ? " Experiencia laboral" : "Work experience"}
       </h1>
 
       <div className=" flex flex-wrap justify-center gap-4 pb-10 ">
@@ -19,12 +24,9 @@ export const Experience = () => {
           </small>
 
           <p className="tracking-sm mt-4 flex w-[300px] flex-row text-sm text-white">
-            En mi tiempo como freelancer, mejoré la comunicación abierta y la
-            transparencia. Creo que establecer relaciones sólidas con mis
-            clientes, comprendiendo sus necesidades, me ayudó a mejorar mi
-            capacidad como desarrollador. Mi objetivo no solo fue entregar un
-            producto final de alta calidad, sino también brindar una experiencia
-            colaborativa excepcional.
+            {Idioma === "ES"
+              ? "En mi tiempo como freelancer, mejoré la comunicación abierta y la transparencia. Creo que establecer relaciones sólidas con mis clientes, comprendiendo sus necesidades, me ayudó a mejorar mi capacidad como desarrollador. Mi objetivo no solo fue entregar un producto final de alta calidad, sino también brindar una experiencia colaborativa excepcional."
+              : "In my time as a freelancer, I improved open communication and transparency. I believe that establishing strong relationships with my clients, understanding their needs, helped me improve my ability as a developer. My goal was not only to deliver a high-quality final product, but also to provide an exceptional collaborative experience."}
           </p>
         </div>
         <div className="border-dark_grey hover:bg-hover flex min-h-[200px] flex-col rounded-lg border bg-black p-4 transition">
@@ -42,10 +44,9 @@ export const Experience = () => {
             </p>
           </a>
           <p className="tracking-sm mt-4 flex w-[300px] flex-row text-sm text-white">
-            Durante mi tiempo en DePC, me enfoqué en la expansión y mejora
-            continua de las aplicaciones móviles y web existentes. Mi principal
-            responsabilidad consistía en agregar nuevas funcionalidades y
-            realizar mantenimientos para garantizar un rendimiento óptimo.
+            {Idioma === "ES"
+              ? "Durante mi tiempo en DePC, me enfoqué en la expansión y mejora continua de las aplicaciones móviles y web existentes. Mi principal responsabilidad consistía en agregar nuevas funcionalidades y realizar mantenimientos para garantizar un rendimiento óptimo."
+              : "During my time at DePC, I focused on the continuous expansion and improvement of existing mobile and web applications. My main responsibility was to add new features and perform maintenance to ensure optimal performance."}
           </p>
         </div>
       </div>

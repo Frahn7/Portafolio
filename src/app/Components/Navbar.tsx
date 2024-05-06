@@ -1,6 +1,13 @@
+"use client";
+
 import Image from "next/image";
+import React from "react";
+import { useIdioma } from "~/Contexts/Idioma";
+import { IoLanguage } from "react-icons/io5";
 
 const Navbar = () => {
+  const { Idioma, setIdioma } = useIdioma();
+
   const name = "{ VF }";
   return (
     <div>
@@ -11,19 +18,19 @@ const Navbar = () => {
           </div>
           <ul className="md:flex md:flex-row md:justify-center md:gap-5 md:py-5">
             <a href="#sobremi">
-              <li>Sobre Mí</li>
+              {Idioma === "ES" ? <li>Sobre Mí</li> : <li>About me</li>}
             </a>
             <a href="#experiencia">
-              <li>Experiencia</li>
+              {Idioma === "ES" ? <li>Experiencia</li> : <li>Experience</li>}
             </a>
             <a href="#tec">
-              <li>Tecnologias</li>
+              {Idioma === "ES" ? <li>Tecnologias</li> : <li>Technologies</li>}
             </a>
             <a href="#proj">
-              <li>Proyectos</li>
+              {Idioma === "ES" ? <li>Proyectos</li> : <li>Projects</li>}
             </a>
             <a href="#contact">
-              <li>Contactame</li>
+              {Idioma === "ES" ? <li>Contactame</li> : <li>Contact me</li>}
             </a>
             {/* <li>Descargar CV</li> */}
             <li className="-mt-[15px]">
@@ -35,6 +42,32 @@ const Navbar = () => {
                 height={0}
               />
             </li>
+            <div className="-mt-2 flex flex-row gap-2">
+              <li
+                className={
+                  Idioma === "ES"
+                    ? "flex h-[50px] cursor-pointer flex-row items-center rounded-full border-2 bg-gray-500  px-2 text-center align-middle text-white"
+                    : "flex h-[50px] cursor-pointer flex-row items-center rounded-full border-2 bg-gray-700  px-2 text-center align-middle text-white"
+                }
+                onClick={() => {
+                  setIdioma("ES");
+                }}
+              >
+                <IoLanguage /> ES
+              </li>
+              <li
+                className={
+                  Idioma === "US"
+                    ? "flex h-[50px] cursor-pointer flex-row items-center rounded-full border-2 bg-gray-500  px-2 text-center align-middle text-white"
+                    : "flex h-[50px] cursor-pointer flex-row items-center rounded-full border-2 bg-gray-700  px-2 text-center align-middle text-white"
+                }
+                onClick={() => {
+                  setIdioma("US");
+                }}
+              >
+                <IoLanguage /> EN
+              </li>
+            </div>
           </ul>
         </div>
       </nav>

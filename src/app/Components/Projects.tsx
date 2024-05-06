@@ -8,13 +8,16 @@ import { BsFillBootstrapFill } from "react-icons/bs";
 import { IoLogoCss3 } from "react-icons/io";
 import { FaAws } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
+import { useIdioma } from "~/Contexts/Idioma";
 
 export const Projects = () => {
+  const { Idioma } = useIdioma();
+
   return (
     <div id="proj" className="mt-20">
       <div>
         <h1 className=" sans-serif flex justify-center pb-4 text-4xl font-semibold text-[#ffe4c4] ">
-          Proyectos
+          {Idioma === "ES" ? "Proyectos" : "Projects"}
         </h1>
       </div>
       <div className=" flex flex-wrap justify-center gap-4 pb-10 ">

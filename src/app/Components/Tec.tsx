@@ -13,6 +13,7 @@ import { SiMysql } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { BsFillBootstrapFill } from "react-icons/bs";
 import { SiTypescript } from "react-icons/si";
+import { useIdioma } from "~/Contexts/Idioma";
 
 interface TecProps {
   className: string;
@@ -28,11 +29,14 @@ function TecnologiasCard({ className, icon }: TecProps) {
 }
 
 export const Tec = () => {
+  const { Idioma } = useIdioma();
+
   return (
     <div className="pb-20" id="tec">
       <div>
         <h1 className="sans-serif mt-20 flex justify-center px-20 pb-4 text-4xl font-semibold text-[#ffe4c4] ">
-          Tecnologías destacadas <span className="spin-animation">⚙</span>
+          {Idioma === "ES" ? "Tecnologías destacadas" : "Featured Technologies"}
+          <span className="spin-animation">⚙</span>
         </h1>
       </div>
       <div className="mt-4 flex flex-wrap justify-center gap-2 px-[25px] text-center align-middle">
