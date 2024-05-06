@@ -73,7 +73,7 @@ const Navbar = () => {
         </div>
       </nav>
       <div
-        className=" fixed  flex w-full  justify-end p-2 "
+        className=" fixed  flex w-full   justify-end p-2 "
         onClick={() => {
           window.scroll({
             top: 0,
@@ -81,7 +81,7 @@ const Navbar = () => {
           });
         }}
       >
-        <TiArrowSortedUp className="animate-infinite flex animate-bounce justify-end rounded-full bg-white text-[50px]" />
+        <TiArrowSortedUp className="animate-infinite flex animate-bounce cursor-pointer justify-end rounded-full bg-white text-[50px]" />
       </div>
     </div>
   );
