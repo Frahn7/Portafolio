@@ -76,14 +76,16 @@ export const Projects = () => {
             }
           />
         </a>
-        <a href="https://rick-y-morty-fetch-api.vercel.app/" target="_blank">
+        <a href="https://padel-page.vercel.app/" target="_blank">
           <Card
-            title="Fetch Api"
-            description="Haciendo una solicitud a la API de Rick y Morty utilizando fetch, con paginación implementada."
+            title="Pagina de padel"
+            description="Un proyecto FullStack, donde se guardan los matches,puntos, etc... De los partidos con mi grupo de amigos"
             tec={
               <div className="flex flex-row gap-3 text-[25px]">
                 <FaReact />
-                <BsFillBootstrapFill />
+                <SiTailwindcss />
+                <SiTypescript />
+                <SiMysql />
               </div>
             }
           />
