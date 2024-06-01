@@ -21,6 +21,36 @@ export const Projects = () => {
         </h1>
       </div>
       <div className=" flex flex-wrap justify-center gap-4 pb-10 ">
+        <a href="https://www.tododescuentos.com.ar/" target="_blank">
+          <Card
+            title="Todo descuentos"
+            description="Me dediqué a agregar características y solucionar problemas durante mi tiempo como desarrollador en DEPC."
+            tec={
+              <div className="flex flex-row gap-3  text-[25px]">
+                <FaReact />
+                <SiTailwindcss />
+                <SiTypescript />
+                <SiMysql />
+              </div>
+            }
+          />
+        </a>
+
+        <a href="https://padel-page.vercel.app/" target="_blank">
+          <Card
+            title="Pagina de padel"
+            description="Un proyecto FullStack, donde se guardan los matches,puntos, etc... De los partidos con mi grupo de amigos con bdd y crud"
+            tec={
+              <div className="flex flex-row gap-3 text-[25px]">
+                <FaReact />
+                <SiTailwindcss />
+                <SiTypescript />
+                <SiMysql />
+              </div>
+            }
+          />
+        </a>
+
         <a href="https://www.ccomplejoartmedia.com.ar/" target="_blank">
           <Card
             title="Complejo Artmedia"
@@ -34,6 +64,35 @@ export const Projects = () => {
             }
           />
         </a>
+
+        <a href="https://www.anba.org.ar/" target="_blank">
+          <Card
+            title="ANBA"
+            description="Me dediqué a agregar características y solucionar problemas durante mi tiempo como desarrollador en DEPC."
+            tec={
+              <div className="flex flex-row  gap-3 text-[25px]">
+                <FaReact />
+                <IoLogoCss3 />
+                <SiMysql />
+              </div>
+            }
+          />
+        </a>
+
+        <a href="https://takenos-clon.vercel.app/" target="_blank">
+          <Card
+            title="Clon de Takenos"
+            description="Hice un clon de la pagina de Takenos"
+            tec={
+              <div className="flex flex-row gap-3 text-[25px]">
+                <FaReact />
+                <SiTailwindcss />
+                <SiTypescript />
+              </div>
+            }
+          />
+        </a>
+
         <a
           href="https://lista-de-tareas-react-five.vercel.app/"
           target="_blank"
@@ -49,47 +108,7 @@ export const Projects = () => {
             }
           />
         </a>
-        <a href="https://takenos-clon.vercel.app/" target="_blank">
-          <Card
-            title="Clon de Takenos"
-            description="Hice un clon de la pagina de Takenos"
-            tec={
-              <div className="flex flex-row gap-3 text-[25px]">
-                <FaReact />
-                <SiTailwindcss />
-                <SiTypescript />
-              </div>
-            }
-          />
-        </a>
-        <a href="https://www.tododescuentos.com.ar/" target="_blank">
-          <Card
-            title="Todo descuentos"
-            description="Me dediqué a agregar características y solucionar problemas durante mi tiempo como desarrollador en DEPC."
-            tec={
-              <div className="flex flex-row gap-3  text-[25px]">
-                <FaReact />
-                <SiTailwindcss />
-                <SiTypescript />
-                <SiMysql />
-              </div>
-            }
-          />
-        </a>
-        <a href="https://padel-page.vercel.app/" target="_blank">
-          <Card
-            title="Pagina de padel"
-            description="Un proyecto FullStack, donde se guardan los matches,puntos, etc... De los partidos con mi grupo de amigos"
-            tec={
-              <div className="flex flex-row gap-3 text-[25px]">
-                <FaReact />
-                <SiTailwindcss />
-                <SiTypescript />
-                <SiMysql />
-              </div>
-            }
-          />
-        </a>
+
         <a href="https://app-clima-lake.vercel.app/" target="_blank">
           <Card
             title="App del clima"
@@ -102,19 +121,7 @@ export const Projects = () => {
             }
           />
         </a>
-        <a href="https://www.anba.org.ar/" target="_blank">
-          <Card
-            title="ANBA"
-            description="Me dediqué a agregar características y solucionar problemas durante mi tiempo como desarrollador en DEPC."
-            tec={
-              <div className="flex flex-row  gap-3 text-[25px]">
-                <FaReact />
-                <IoLogoCss3 />
-                <SiMysql />
-              </div>
-            }
-          />
-        </a>
+
         <a href="https://tic-tac-toe-theta-fawn-92.vercel.app/" target="_blank">
           <Card
             title="Tic-Tac-Toe"
